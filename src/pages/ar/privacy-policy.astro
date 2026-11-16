@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { t } from '../../utils/i18n';
+import { email } from '../../utils/me';
+
+const lang = 'ar';
+const pageTitle = t('footer.privacyPolicy', lang) + " | " + t('site.title', lang);
+const pageDescription = t('footer.privacyPolicy', lang) + " - " + t('site.title', lang);
+---
+
+<Layout title={pageTitle} description={pageDescription} lang={lang}>
+  <section class="py-16 md:py-24">
+    <div class="max-w-container mx-auto px-6">
+      <header class="mb-12 text-center">
+        <h1 class="font-heading text-h1 text-secondary dark:text-white">{t('footer.privacyPolicy', lang)}</h1>
+      </header>
+
+      <article class="prose dark:prose-invert max-w-none mx-auto bg-white dark:bg-neutral-dark p-6 md:p-8 rounded-lg shadow">
+        <p>نحترم خصوصيتك. هذا الموقع التعريفي هو موقع ثابت (Static Website) لا يقوم بجمع أو تخزين أو بيع أي بيانات شخصية للزوار.</p>
+
+        <h2>التواصل المباشر</h2>
+        <p>عند تواصلك عبر البريد الإلكتروني ({email}) أو عبر الروابط الخارجية (مثل LinkedIn أو GitHub)، يتم استخدام بياناتك فقط للرد على استفساراتك.</p>
+
+        <h2>ملفات تعريف الارتباط والتفضيلات</h2>
+        <p>يتم حفظ تفضيل المظهر (الداكن أو الفاتح) محلياً في متصفحك فقط لتحسين تجربة التصفح.</p>
+      </article>
+    </div>
+  </section>
+</Layout>

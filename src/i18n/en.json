@@ -1,0 +1,106 @@
+{
+  "site": {
+    "title": "Mohammed Ameen Al-Wosabi - AI & ML Engineer",
+    "description": "AI & Machine Learning Engineer and RAG Specialist building practical intelligent systems, LLM applications, and scalable backend solutions."
+  },
+  "nav": {
+    "start": "Start",
+    "about": "About Me",
+    "skills": "Skills",
+    "contact": "Contact",
+    "contactButton": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I am",
+    "name": "Mohammed Ameen Al-Wosabi",
+    "pitch": "I develop technical solutions that leverage Artificial Intelligence to turn ideas into practical applications. I focus on Machine Learning, Large Language Models (LLMs), and RAG systems, continuously striving to build impactful products.",
+    "role": "AI & Machine Learning Engineer | RAG Specialist",
+    "ctaProjects": "View Projects",
+    "ctaAbout": "More About Me"
+  },
+  "values": {
+    "title": "About Me",
+    "subtitle": "I am Mohammed Ameen Al-Wosabi, an Artificial Intelligence graduate passionate about building intelligent systems and applying AI to solve real-world problems.",
+    "card1Title": "Machine Learning & Deep Learning",
+    "card1Text": "Focused on Machine Learning, Deep Learning, Natural Language Processing (NLP), and Computer Vision—combining research with practical model training and evaluation.",
+    "card2Title": "LLMs & RAG Systems",
+    "card2Text": "Specialized in Large Language Models, Retrieval-Augmented Generation (RAG), embeddings, vector search with Qdrant, and building reliable AI agents.",
+    "card3Title": "Problem-First Engineering",
+    "card3Text": "I believe technology is more than writing code—it starts with understanding the problem and ends with building a useful, scalable solution."
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "The languages, AI frameworks, databases, and tools I use to design and ship intelligent applications.",
+    "clusters": {
+      "programming": {
+        "title": "Programming & Development",
+        "description": "Core programming languages and web fundamentals for building intelligent software."
+      },
+      "aiml": {
+        "title": "AI & Machine Learning",
+        "description": "End-to-end machine learning, deep learning, NLP, computer vision, and data mining."
+      },
+      "genai": {
+        "title": "Generative AI & RAG",
+        "description": "Designing LLM-powered workflows, retrieval pipelines, embeddings, and AI agents."
+      },
+      "frameworks": {
+        "title": "Frameworks & App Development",
+        "description": "Production backends, cross-platform apps, and deep learning frameworks."
+      },
+      "databases": {
+        "title": "Databases & Vector Stores",
+        "description": "Relational, NoSQL, and vector databases for structured data and semantic search."
+      },
+      "datascience": {
+        "title": "Data Science & Analytics",
+        "description": "Data manipulation, numerical computing, visualization, and interactive research."
+      },
+      "infra": {
+        "title": "Development & Infrastructure",
+        "description": "Containerization, APIs, version control, and local AI inference tooling."
+      },
+      "embedded": {
+        "title": "Embedded Systems",
+        "description": "Connecting sensors and microcontrollers with intelligent software systems."
+      },
+      "models": {
+        "title": "AI Models & Platforms",
+        "description": "Working with leading open-weight and frontier language and image generation models."
+      }
+    }
+  },
+  "timeline": {
+    "title": "Academic & Professional Journey",
+    "subtitle": "Key milestones across my AI studies, graduation research, product development, and backend engineering.",
+    "item1Title": "2026 – Present | 4th Year AI Student — Al-Razi University, Yemen",
+    "item1Description": "Studying Artificial Intelligence with a focus on practical applications and intelligent systems—specializing in Machine Learning, Deep Learning, NLP, and Large Language Models.",
+    "item2Title": "2026 – Present | AI Engineer — Smart Tutor (Graduation Project)",
+    "item2Description": "Leading the AI architecture of the project, focusing on designing RAG pipelines, integrating LLMs, and building an intelligent experience that helps Yemeni school students understand and interact with study materials.",
+    "item3Title": "Product Development | Hikayati Platform",
+    "item3Description": "Contributing to an AI-powered platform for creating personalized children's stories, combining text generation, image generation, and printable storybook production.",
+    "item4Title": "Software Development | Backend & Full-Stack Systems",
+    "item4Description": "Building technical applications and platforms with Python, FastAPI, Flutter, and PostgreSQL—focusing on database design, RESTful APIs, and service integration.",
+    "buttonText": "View GitHub Profile"
+  },
+  "footerCTA": {
+    "title": "Let's Build Something Intelligent",
+    "subtitle": "Explore my AI projects, RAG experiments, and open-source repositories on GitHub.",
+    "buttonText": "Browse on GitHub"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Interested in collaborating on AI, RAG systems, or software engineering projects? Feel free to reach out!",
+    "emailTitle": "Email",
+    "emailButtonText": "Send Email",
+    "phoneTitle": "Phone",
+    "phoneButtonText": "Call Now",
+    "linkedinTitle": "LinkedIn",
+    "linkedinButtonText": "Connect on LinkedIn"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

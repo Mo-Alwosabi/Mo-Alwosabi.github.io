@@ -1,0 +1,32 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+const currentLocale = Astro.currentLocale || 'en';
+const locales = ['en', 'ar'];
+
+const localeLabels: Record<string, string> = {
+  en: 'EN',
+  ar: 'عربي',
+};
+
+const getLocaleUrl = (locale: string) => {
+  const currentPath = Astro.url.pathname.replace(new RegExp(`^/${currentLocale}(?=/|$)`), '') || '/';
+  return getRelativeLocaleUrl(locale, currentPath);
+};
+---
+
+<div class="flex items-center gap-2">
+  {locales.length > 1 && locales.map(locale => (
+    <a
+      href={getLocaleUrl(locale)}
+      class={`px-3 py-1 text-sm font-mono rounded-full transition-colors duration-200 ${
+        currentLocale === locale
+          ? 'bg-primary text-white'
+          : 'bg-gray-100 dark:bg-gray-800 text-secondary/60 dark:text-white/60 hover:bg-gray-200 dark:hover:bg-gray-700'
+      }`}
+      aria-current={currentLocale === locale ? 'page' : false}
+    >
+      {localeLabels[locale] || locale.toUpperCase()}
+    </a>
+  ))}
+</div>

@@ -1,0 +1,201 @@
+---
+import {
+  Code2Icon,
+  CpuIcon,
+  SparklesIcon,
+  LayersIcon,
+  DatabaseIcon,
+  BarChart3Icon,
+  WrenchIcon,
+  CircuitBoardIcon,
+  BotIcon,
+  TerminalIcon,
+  BracesIcon,
+  BrainCircuitIcon,
+  SearchCheckIcon,
+  ServerIcon,
+  TableIcon,
+  GitBranchIcon,
+  BoxIcon,
+  Globe2Icon,
+  FileCodeIcon
+} from '@lucide/astro';
+
+import { t } from '../../utils/i18n';
+
+interface Props {
+  lang: string | undefined;
+}
+
+const { lang } = Astro.props;
+
+const skillClusters = [
+  {
+    id: 'programming',
+    title: t('skills.clusters.programming.title', lang),
+    description: t('skills.clusters.programming.description', lang),
+    icon: Code2Icon,
+    tools: [
+      { name: 'Python', icon: TerminalIcon },
+      { name: 'Dart', icon: FileCodeIcon },
+      { name: 'C++', icon: Code2Icon },
+      { name: 'SQL', icon: DatabaseIcon },
+      { name: 'JavaScript (Web)', icon: BracesIcon },
+    ]
+  },
+  {
+    id: 'aiml',
+    title: t('skills.clusters.aiml.title', lang),
+    description: t('skills.clusters.aiml.description', lang),
+    icon: BrainCircuitIcon,
+    tools: [
+      { name: 'Machine Learning', icon: CpuIcon },
+      { name: 'Deep Learning', icon: BrainCircuitIcon },
+      { name: 'NLP', icon: SparklesIcon },
+      { name: 'Computer Vision', icon: SearchCheckIcon },
+      { name: 'Data Mining', icon: DatabaseIcon },
+      { name: 'Data Analysis', icon: BarChart3Icon },
+      { name: 'Model Training & Eval', icon: WrenchIcon },
+    ]
+  },
+  {
+    id: 'genai',
+    title: t('skills.clusters.genai.title', lang),
+    description: t('skills.clusters.genai.description', lang),
+    icon: SparklesIcon,
+    tools: [
+      { name: 'LLMs', icon: BotIcon },
+      { name: 'RAG Systems', icon: SearchCheckIcon },
+      { name: 'Prompt Engineering', icon: SparklesIcon },
+      { name: 'Embeddings', icon: LayersIcon },
+      { name: 'Vector Search', icon: DatabaseIcon },
+      { name: 'AI Agents', icon: BrainCircuitIcon },
+    ]
+  },
+  {
+    id: 'frameworks',
+    title: t('skills.clusters.frameworks.title', lang),
+    description: t('skills.clusters.frameworks.description', lang),
+    icon: LayersIcon,
+    tools: [
+      { name: 'FastAPI', icon: ServerIcon },
+      { name: 'Flutter', icon: LayersIcon },
+      { name: 'Next.js', icon: Globe2Icon },
+      { name: 'TensorFlow', icon: CpuIcon },
+      { name: 'PyTorch', icon: BrainCircuitIcon },
+      { name: 'Scikit-learn', icon: BarChart3Icon },
+    ]
+  },
+  {
+    id: 'databases',
+    title: t('skills.clusters.databases.title', lang),
+    description: t('skills.clusters.databases.description', lang),
+    icon: DatabaseIcon,
+    tools: [
+      { name: 'PostgreSQL', icon: DatabaseIcon },
+      { name: 'MySQL', icon: TableIcon },
+      { name: 'MongoDB', icon: DatabaseIcon },
+      { name: 'Qdrant', icon: SearchCheckIcon },
+      { name: 'Database Design', icon: LayersIcon },
+    ]
+  },
+  {
+    id: 'datascience',
+    title: t('skills.clusters.datascience.title', lang),
+    description: t('skills.clusters.datascience.description', lang),
+    icon: BarChart3Icon,
+    tools: [
+      { name: 'NumPy', icon: TableIcon },
+      { name: 'Pandas', icon: DatabaseIcon },
+      { name: 'Matplotlib', icon: BarChart3Icon },
+      { name: 'Jupyter Notebook', icon: FileCodeIcon },
+    ]
+  },
+  {
+    id: 'infra',
+    title: t('skills.clusters.infra.title', lang),
+    description: t('skills.clusters.infra.description', lang),
+    icon: WrenchIcon,
+    tools: [
+      { name: 'Git & GitHub', icon: GitBranchIcon },
+      { name: 'Docker', icon: BoxIcon },
+      { name: 'RESTful APIs', icon: ServerIcon },
+      { name: 'LM Studio', icon: BotIcon },
+      { name: 'ComfyUI', icon: SparklesIcon },
+      { name: 'Arduino IDE', icon: TerminalIcon },
+    ]
+  },
+  {
+    id: 'embedded',
+    title: t('skills.clusters.embedded.title', lang),
+    description: t('skills.clusters.embedded.description', lang),
+    icon: CircuitBoardIcon,
+    tools: [
+      { name: 'Arduino', icon: CircuitBoardIcon },
+      { name: 'ESP32', icon: CpuIcon },
+      { name: 'Sensor Integration', icon: WrenchIcon },
+      { name: 'HW–SW Integration', icon: LayersIcon },
+    ]
+  },
+  {
+    id: 'models',
+    title: t('skills.clusters.models.title', lang),
+    description: t('skills.clusters.models.description', lang),
+    icon: BotIcon,
+    tools: [
+      { name: 'Qwen', icon: BotIcon },
+      { name: 'Llama', icon: BotIcon },
+      { name: 'Gemini', icon: SparklesIcon },
+      { name: 'SDXL', icon: LayersIcon },
+      { name: 'FLUX.1', icon: SparklesIcon },
+    ]
+  }
+];
+---
+
+<section id="skills" class="py-16 md:py-24">
+  <div class="max-w-container mx-auto px-6">
+    <div class="mb-8 md:mb-10 text-center" data-aos="fade-up" data-aos-duration="800">
+      <h2 class="font-heading text-h2 text-secondary dark:text-white mb-4">{t('skills.title', lang)}</h2>
+      <p class="text-secondary/70 dark:text-white/70 max-w-2xl mx-auto">
+        {t('skills.subtitle', lang)}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+      {skillClusters.map((cluster, index) => (
+        <div
+          id={cluster.id}
+          class="skill-cluster bg-white dark:bg-neutral-dark border border-gray-100 dark:border-gray-800 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300"
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay={(index % 3) * 120}
+        >
+          <div class="cluster-header flex items-center gap-4 mb-4">
+            <div class="icon-container text-primary bg-primary/5 p-3 rounded-lg shrink-0">
+              <cluster.icon size=24 stroke-width=1.75 />
+            </div>
+            <h3 class="font-heading text-lg text-secondary dark:text-white">
+              {cluster.title}
+            </h3>
+          </div>
+
+          <p class="text-sm text-secondary/70 dark:text-white/70 mb-4 cluster-description">
+            {cluster.description}
+          </p>
+
+          <div class="cluster-tools grid grid-cols-2 gap-3 mt-4">
+            {cluster.tools.map((tool) => (
+              <div class="tool-item flex items-center gap-2 p-2 rounded-lg bg-gray-50 dark:bg-white/5">
+                <div class="tool-icon text-primary shrink-0">
+                  <tool.icon size=16 stroke-width=1.75 />
+                </div>
+                <p class="text-xs font-medium text-secondary dark:text-white truncate">{tool.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
