@@ -21,13 +21,13 @@
   "values": {
     "title": "من أنا",
     "subtitle": "أنا محمد أمين الوصابي، خريج بتخصص الذكاء الاصطناعي. لدي اهتمام ببناء الأنظمة والتطبيقات الذكية، واستكشاف كيفية توظيف تقنيات الذكاء الاصطناعي في حل المشكلات الواقعية.",
-    "viewRepo": "عرض المشروع على GitHub",
+    "viewRepo": "معاينة",
     "card1Title": "الرؤية الحاسوبية والأنظمة المدمجة",
-    "card1Text": "تطوير أنظمة رؤية حاسوبية وربطها بالعتاد مثل Basira Cashier AI وRased Plate AI باستخدام YOLOv8 وEasyOCR وFastAPI وESP32.",
+    "card1Text": "طوّرت نظام Basira Cashier AI للكاشير الذكي المعتمد على الرؤية الحاسوبية والربط مع العتاد باستخدام YOLOv8 وFastAPI وESP32.",
     "card2Title": "أنظمة RAG والنماذج اللغوية المحلية",
-    "card2Text": "بناء منصات RAG متكاملة مثل Local-RAG-Workstation باستخدام Next.js 15 وFastAPI وLangGraph وQdrant وPostgreSQL مع تشغيل محلي بالكامل.",
-    "card3Title": "الوكلاء الأذكياء والأنظمة المتكاملة",
-    "card3Text": "تصميم تطبيقات متعددة الوكلاء (Multi-Agent) مثل Itqan-Interview-AI وMizan-Commerce-AI وBayan-Multi-Search-AI باستخدام LangGraph."
+    "card2Text": "بنيت منصة Local-RAG-Workstation للبحث والتوليد المعزز محلياً بالكامل باستخدام Next.js 15 وFastAPI وLangGraph وQdrant وPostgreSQL مع دعم العربية والإنجليزية.",
+    "card3Title": "الأنظمة متعددة الوكلاء (Multi-Agent)",
+    "card3Text": "صمّمت منصة Itqan-Interview-AI لمحاكاة المقابلات التقنية والسلوكية باستخدام LangGraph وتقييم STAR والتحليل الصوتي."
   },
   "skills": {
     "title": "المهارات والأدوات",

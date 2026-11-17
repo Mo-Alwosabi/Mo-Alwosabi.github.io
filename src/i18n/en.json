@@ -21,13 +21,13 @@
   "values": {
     "title": "About Me",
     "subtitle": "I am Mohammed Ameen Al-Wosabi, an Artificial Intelligence graduate passionate about building intelligent systems and applying AI to solve real-world problems.",
-    "viewRepo": "View Project on GitHub",
+    "viewRepo": "Preview",
     "card1Title": "Computer Vision & Embedded AI",
-    "card1Text": "Building real-time vision and hardware systems like Basira Cashier AI and Rased Plate AI using YOLOv8, EasyOCR, FastAPI, and ESP32.",
+    "card1Text": "Engineered Basira Cashier AI, a vision-based smart retail checkout system powered by YOLOv8, FastAPI, and ESP32 hardware.",
     "card2Title": "Local RAG & LLM Systems",
-    "card2Text": "Engineering privacy-first RAG platforms like Local-RAG-Workstation with Next.js 15, FastAPI, LangGraph, Qdrant, PostgreSQL, and offline inference.",
-    "card3Title": "Multi-Agent AI & Full-Stack",
-    "card3Text": "Designing autonomous multi-agent applications such as Itqan-Interview-AI, Mizan-Commerce-AI, and Bayan-Multi-Search-AI with LangGraph."
+    "card2Text": "Built Local-RAG-Workstation, an offline enterprise RAG platform using Next.js 15, FastAPI, LangGraph, Qdrant, and PostgreSQL with bilingual Arabic/English citations.",
+    "card3Title": "Multi-Agent AI Systems",
+    "card3Text": "Developed Itqan-Interview-AI, a multi-agent technical and behavioral interview simulator powered by LangGraph, STAR evaluation, and voice synthesis."
   },
   "skills": {
     "title": "Skills & Technologies",
