@@ -21,12 +21,13 @@
   "values": {
     "title": "About Me",
     "subtitle": "I am Mohammed Ameen Al-Wosabi, an Artificial Intelligence graduate passionate about building intelligent systems and applying AI to solve real-world problems.",
-    "card1Title": "Machine Learning & Deep Learning",
-    "card1Text": "Focused on Machine Learning, Deep Learning, Natural Language Processing (NLP), and Computer Vision—combining research with practical model training and evaluation.",
-    "card2Title": "LLMs & RAG Systems",
-    "card2Text": "Specialized in Large Language Models, Retrieval-Augmented Generation (RAG), embeddings, vector search with Qdrant, and building reliable AI agents.",
-    "card3Title": "Problem-First Engineering",
-    "card3Text": "I believe technology is more than writing code—it starts with understanding the problem and ends with building a useful, scalable solution."
+    "viewRepo": "View Project on GitHub",
+    "card1Title": "Computer Vision & Embedded AI",
+    "card1Text": "Building real-time vision and hardware systems like Basira Cashier AI and Rased Plate AI using YOLOv8, EasyOCR, FastAPI, and ESP32.",
+    "card2Title": "Local RAG & LLM Systems",
+    "card2Text": "Engineering privacy-first RAG platforms like Local-RAG-Workstation with Next.js 15, FastAPI, LangGraph, Qdrant, PostgreSQL, and offline inference.",
+    "card3Title": "Multi-Agent AI & Full-Stack",
+    "card3Text": "Designing autonomous multi-agent applications such as Itqan-Interview-AI, Mizan-Commerce-AI, and Bayan-Multi-Search-AI with LangGraph."
   },
   "skills": {
     "title": "Skills & Technologies",
@@ -73,14 +74,14 @@
   "timeline": {
     "title": "Academic & Professional Journey",
     "subtitle": "Key milestones across my AI studies, graduation research, product development, and backend engineering.",
-    "item1Title": "2026 – Present | 4th Year AI Student — Al-Razi University, Yemen",
-    "item1Description": "Studying Artificial Intelligence with a focus on practical applications and intelligent systems—specializing in Machine Learning, Deep Learning, NLP, and Large Language Models.",
-    "item2Title": "2026 – Present | AI Engineer — Smart Tutor (Graduation Project)",
+    "item1Title": "2026 - Present | 4th Year AI Student, Al-Razi University, Yemen",
+    "item1Description": "Studying Artificial Intelligence with a focus on practical applications and intelligent systems, specializing in Machine Learning, Deep Learning, NLP, and Large Language Models.",
+    "item2Title": "2026 - Present | AI Engineer, Smart Tutor (Graduation Project)",
     "item2Description": "Leading the AI architecture of the project, focusing on designing RAG pipelines, integrating LLMs, and building an intelligent experience that helps Yemeni school students understand and interact with study materials.",
     "item3Title": "Product Development | Hikayati Platform",
     "item3Description": "Contributing to an AI-powered platform for creating personalized children's stories, combining text generation, image generation, and printable storybook production.",
     "item4Title": "Software Development | Backend & Full-Stack Systems",
-    "item4Description": "Building technical applications and platforms with Python, FastAPI, Flutter, and PostgreSQL—focusing on database design, RESTful APIs, and service integration.",
+    "item4Description": "Building technical applications and platforms with Python, FastAPI, Flutter, and PostgreSQL, focusing on database design, RESTful APIs, and service integration.",
     "buttonText": "View GitHub Profile"
   },
   "footerCTA": {
